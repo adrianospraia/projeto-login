@@ -53,7 +53,7 @@ main {
 
 section#login > div#imagem {
     display: block;
-    background: #3F4829 url(../imagens/pexels-william-choquette-1954524.jpg) no-repeat;
+    background: #76BF65 url(../imagens/pexels-william-choquette-1954524.jpg) no-repeat;
     background-size: cover;
     height: 230px;
 }
