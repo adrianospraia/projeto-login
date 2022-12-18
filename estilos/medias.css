@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (max-height: 567px) {
+@media screen and (max-height: 400px) {
     section#login > div#imagem {
         float: left;
         height: 100vh;
