@@ -13,7 +13,7 @@
     }
 }
 
-@media screen and (min-width: 426px) {
+@media screen and (max-width: 300px) {
     #login {
         position: absolute;
         top: 50%;
