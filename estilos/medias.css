@@ -1,2 +1,18 @@
 @charset "UTF-8";
 
+@media screen and (max-height: 400px) {
+    #login {
+        width: min(100% - 15px, 450px);
+        height: min(100% - 15px, 300px);
+    }
+
+    section#login > div#imagem {
+        height: 150px;
+    }
+
+    section#login > div#formulario {
+        height: 150px;
+        overflow-x: scroll;
+        font-size: 1em;
+    }
+}
