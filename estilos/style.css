@@ -43,8 +43,9 @@ main {
     transform: translate(-50%, -50%);
     overflow: hidden;
     background-color: var(--white);
-    width: 90vw;
-    height: 95vh;
+    width: min(100% - 15px, 600px);
+    margin-inline: auto;
+    height: min(100% - 15px, 600px);
     border-radius: 10px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.644);
     transition: width 0.3s, height 0.3s;

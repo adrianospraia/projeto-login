@@ -1,20 +1,2 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 570px) {
-    #login {
-        width: 513px;
-        height: 530px;
-    }   
-}
-
-@media screen and (min-height: 560px) {
-    #login {
-        height: 530px;
-    }
-}
-
-@media screen and (m-height: 800px) {
-    #login {
-        height: 700px;
-    }
-}
