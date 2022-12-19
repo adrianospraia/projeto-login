@@ -1,19 +1,8 @@
 @charset "UTF-8";
 
-@media screen and (max-height: 400px) {
-    section#login > div#imagem {
-        float: left;
-        height: 100vh;
-        width: 40vw;
-    }
-    section#login > div#formulario {
-        float: right;
-        height: 100vw;
-        width: 60vw;
-    }
-}
 
-@media screen and (min-width: 426px) {
+
+@media screen and (min-width: 426px) and (orientation: portrait){
     #login {
         position: absolute;
         top: 50%;
@@ -42,3 +31,40 @@
         padding: 10px;   
 }
 }
+
+@media screen and (min-width: 426px) and (orientation: landscape){
+    #login {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        overflow: hidden;
+        background-color: var(--white);
+        width: 550px;
+        margin-inline: auto;
+        height: 300px;
+        border-radius: 10px;
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.644);
+        transition: width 0.3s, height 0.3s;
+    }
+    
+    section#login > div#imagem {
+        display: block;
+        float: left;
+        background: #76BF65 url(../imagens/pexels-william-choquette-1954524.jpg) no-repeat;
+        background-size: cover;
+        background-position: center center;
+        width: 250px;
+        height: 300px;
+    }
+    
+    section#login > div#formulario {
+        display: block;
+        float: right;
+        text-align: center;
+        padding: 10px;   
+        width: 250px;
+        overflow: scroll;
+}
+}
+
